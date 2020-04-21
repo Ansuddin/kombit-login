@@ -12,7 +12,8 @@
     "start": "stencil build --dev --watch --serve",
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watch",
-    "generate": "stencil generate"
+    "generate": "stencil generate",
+    "build.netlify": "npm run build cp src/_redirects www/_redirects"
   },
   "devDependencies": {
     "@ionic/core": "^5.0.0",
