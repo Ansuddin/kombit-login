@@ -14,7 +14,8 @@ export class Auth {
     clientID: AUTH_CONFIG.clientId,
     redirectUri: AUTH_CONFIG.callbackUrl,
     responseType: "token id_token",
-    scope: AUTH_CONFIG.scope
+    scope: AUTH_CONFIG.scope,
+    audience: AUTH_CONFIG.audience,
   });
 
   constructor() {
